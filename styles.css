@@ -260,6 +260,40 @@ img {
   padding: 4rem 0;
 }
 
+.blog-list-section .blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.blog-list-section .blog-list li {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.25rem 1.5rem;
+}
+
+.blog-list-section .blog-list a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.blog-post .blog-page-content {
+  margin-top: 2rem;
+}
+
+.blog-post .blog-page-content h1,
+.blog-post .blog-page-content h2 {
+  margin-top: 1.5rem;
+}
+
+.blog-post .blog-page-content p {
+  color: var(--muted);
+}
+
 .pale-bg {
   background: #fff;
 }
